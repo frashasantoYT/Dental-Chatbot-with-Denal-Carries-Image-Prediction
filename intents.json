@@ -1,0 +1,161 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good day", "Greetings"],
+        "responses": ["Hello! Welcome to our dental advisory service. How can I assist you today?", "Hi there! How can I help you with your dental health?", "Good day! What dental concerns do you have?", "Greetings! How can I support you in maintaining your dental hygiene?"],
+        "context_set": ""
+      },
+      {
+        "tag": "greeting_swahili",
+        "patterns": ["Habari", "Uko aje", "Je, kuna mtu yeyote?", "Habari tena", "Siku njema"],
+      "responses": ["Hujambo", "asante kwa kutembelea", "Vizuri kukuona tena", "Karibu Tena", "ninawezaje kusaidia?"],
+      "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "Bye", "See you later", "Take care"],
+        "responses": ["Goodbye! Take care of your teeth!", "Bye! Remember to brush and floss regularly!", "See you later! Keep smiling!", "Take care! Remember, your smile is your best accessory!"],
+        "context_set": ""
+      },
+      {
+        "tag": "noanswer",
+        "patterns": ["I'm not sure", "I don't know", "Can you repeat?", "Please rephrase"],
+        "responses": ["Sorry, I'm not sure I understand. Could you please provide more details?", "I'm not sure what you mean. Can you provide more information?", "I'm sorry, could you please rephrase that?"],
+        "context": [""]
+      },
+      {
+        "tag": "dental_care",
+        "patterns": ["How do I take care of my teeth?", "What's the best way to brush my teeth?", "Why is dental care important?", "Can you give me some dental care tips?", "Tell me about dental hygiene practices"],
+        "responses": ["Proper dental care includes brushing your teeth at least twice a day, flossing daily, eating a balanced diet, and visiting your dentist regularly for check-ups and cleanings. It's important for preventing cavities, gum disease, and maintaining overall health."],
+        "context_set": ""
+      },
+      {
+        "tag": "brushing_technique",
+        "patterns": ["How should I brush my teeth?", "What is the correct brushing technique?", "How long should I brush my teeth for?", "Give me tips for brushing teeth effectively"],
+        "responses": ["Use a soft-bristled toothbrush and fluoride toothpaste. Brush in gentle circular motions, ensuring to clean all surfaces of your teeth and gums. Aim to brush for at least two minutes each time."],
+        "context_set": ""
+      },
+      {
+        "tag": "flossing_technique",
+        "patterns": ["How do I floss my teeth?", "What's the proper way to floss?", "How often should I floss?", "Teach me the right flossing technique"],
+        "responses": ["Take about 18 inches of dental floss and wind most of it around one of your middle fingers. Hold the floss tightly between your thumbs and forefingers and gently guide it between your teeth using a back-and-forth motion. Curve the floss into a 'C' shape against the side of each tooth and gently slide it under the gumline. Floss once a day, preferably before brushing."],
+        "context_set": ""
+      },
+      {
+        "tag": "dental_checkup",
+        "patterns": ["How often should I visit the dentist?", "Why are regular dental check-ups important?", "What happens during a dental check-up?", "What's the purpose of dental check-ups?", "Tell me about dental examinations"],
+        "responses": ["It's recommended to visit your dentist every six months for a routine dental check-up and cleaning. Regular check-ups help prevent dental problems, detect issues early, and maintain good oral health. During a check-up, your dentist will examine your teeth and gums, clean your teeth, and discuss any concerns or treatment options."],
+        "context_set": ""
+      },
+      {
+        "tag": "toothache",
+        "patterns": ["I have a toothache", "What should I do for a toothache?", "How can I relieve toothache pain?", "Help me with toothache relief", "I need advice for managing toothache"],
+        "responses": ["For temporary relief, rinse your mouth with warm saltwater, use over-the-counter pain medication, and apply a cold compress to the outside of your cheek. However, it's important to see your dentist as soon as possible to determine the cause of the toothache and receive appropriate treatment."],
+        "context_set": ""
+      },
+      {
+        "tag": "dental_emergency",
+        "patterns": ["I have a dental emergency", "What constitutes a dental emergency?", "Where can I find emergency dental care?", "Help with dental emergencies", "Guide me during a dental emergency"],
+        "responses": ["Dental emergencies include severe toothache, knocked-out teeth, broken or chipped teeth, and injuries to the mouth or jaw. If you have a dental emergency, contact your dentist immediately. If it's after hours, go to the nearest emergency room or urgent care center for assistance."],
+        "context_set": ""
+      },
+      {
+        "tag": "whitening_teeth",
+        "patterns": ["How can I whiten my teeth?", "What are some teeth whitening options?", "Are there natural ways to whiten teeth?", "Give me tips for teeth whitening", "Help me with teeth whitening techniques"],
+        "responses": ["Teeth whitening options include professional treatments performed by dentists, over-the-counter whitening products like whitening toothpaste or strips, and natural remedies like baking soda or activated charcoal. However, it's essential to consult with your dentist before starting any whitening treatment to ensure it's safe and effective for your teeth."],
+        "context_set": ""
+      },
+      {
+        "tag": "children_dental_care",
+        "patterns": ["How do I take care of my child's teeth?", "When should I start taking my child to the dentist?", "What foods are best for children's dental health?", "Tell me about pediatric dental care", "Help me with child dental hygiene"],
+        "responses": ["Start caring for your child's teeth even before they erupt by gently wiping their gums with a clean, damp cloth after feeding. Schedule your child's first dental visit by their first birthday or when their first tooth appears. Offer healthy foods like fruits, vegetables, cheese, and milk, and limit sugary snacks and drinks to protect their teeth."],
+        "context_set": ""
+      },
+      {
+        "tag": "oral_hygiene_tips",
+        "patterns": ["Can you give me some oral hygiene tips?", "How can I improve my oral hygiene?", "Give me advice for maintaining oral health"],
+        "responses": ["Sure! Here are some oral hygiene tips: brush your teeth at least twice a day, floss daily, limit sugary snacks and drinks, use fluoride toothpaste, and visit your dentist regularly for check-ups and cleanings."]
+      },
+      {
+        "tag": "cavity_prevention",
+        "patterns": ["How can I prevent cavities?", "What are some cavity prevention tips?", "Tell me about cavity prevention techniques"],
+        "responses": ["To prevent cavities, brush your teeth at least twice a day with fluoride toothpaste, floss daily, limit sugary and acidic foods, drink plenty of water, and visit your dentist for regular check-ups."]
+      },
+      {
+        "tag": "gum_disease_symptoms",
+        "patterns": ["What are the symptoms of gum disease?", "How can I recognize gum disease?", "Tell me about signs of gum disease"],
+        "responses": ["Common symptoms of gum disease include red, swollen, or bleeding gums, persistent bad breath, receding gums, loose teeth, and changes in the way your teeth fit together when you bite."]
+      },
+      {
+        "tag": "tooth_decay_causes",
+        "patterns": ["What causes tooth decay?", "How does tooth decay develop?", "Tell me about the factors contributing to tooth decay"],
+        "responses": ["Tooth decay occurs when plaque, a sticky film of bacteria, builds up on teeth and produces acids that erode tooth enamel. Factors contributing to tooth decay include poor oral hygiene, sugary and acidic foods, frequent snacking, and lack of fluoride."]
+      },
+      {
+        "tag": "halitosis_management",
+        "patterns": ["How can I manage bad breath?", "What causes bad breath and how to treat it?", "Tell me about remedies for bad breath"],
+        "responses": ["To manage bad breath, practice good oral hygiene, including brushing your teeth, tongue, and gums, flossing daily, using mouthwash, staying hydrated, and avoiding tobacco and strong-smelling foods."]
+      },
+      {
+        "tag": "orthodontic_options",
+        "patterns": ["What are my options for orthodontic treatment?", "Tell me about different types of braces", "What orthodontic treatments are available?"],
+        "responses": ["Orthodontic options include traditional braces, clear aligners like Invisalign, lingual braces placed behind the teeth, and ceramic braces that blend in with your teeth. Each option has its benefits and considerations, so consult with an orthodontist to determine the best treatment for you."]
+      },
+      {
+        "tag": "dental_implants",
+        "patterns": ["What are dental implants?", "How do dental implants work?", "Tell me about the benefits of dental implants"],
+        "responses": ["Dental implants are artificial tooth roots made of titanium that are surgically placed into the jawbone to support replacement teeth. They look, feel, and function like natural teeth, provide stability for chewing and speaking, and can improve overall oral health."]
+      },
+    
+      {
+        "tag": "dentures",
+        "patterns": ["How do I care for dentures?", "Can I eat with dentures?", "What are the types of dentures?", "Help me with denture maintenance", "Teach me about denture care"],
+        "responses": ["To care for dentures, remove them nightly for cleaning, brush them with a soft-bristled toothbrush and mild soap, and soak them in denture cleaner or water overnight. Avoid using hot water or abrasive cleaners, and handle them carefully to prevent damage. With proper care, dentures can restore your ability to eat and speak comfortably."],
+        "context_set": ""
+      },
+      {
+        "tag": "oral_hygiene_products",
+        "patterns": ["What toothpaste should I use?", "Are electric toothbrushes better?", "Do I need mouthwash?", "Recommend oral hygiene products", "Suggest dental care products"],
+        "responses": ["Choose a fluoride toothpaste that's approved by dental associations. Electric toothbrushes can be more effective for some people, but manual toothbrushes are also suitable when used correctly. Mouthwash can complement your oral hygiene routine by freshening breath and reducing bacteria, but it's not a substitute for brushing and flossing."],
+        "context_set": ""
+      },
+      {
+        "tag": "orthodontic_care",
+        "patterns": ["How do braces work?", "How long do I need to wear braces?", "What are the alternatives to traditional braces?", "Tell me about orthodontic treatment", "Help with orthodontic concerns"],
+        "responses": ["Braces work by applying continuous pressure to move teeth into the desired position over time. Treatment duration varies depending on individual needs but typically ranges from one to three years. Alternatives to traditional braces include clear aligners like Invisalign and lingual braces that are placed on the back of the teeth."],
+        "context_set": ""
+      },
+      {
+        "tag": "diet_and_dental_health",
+        "patterns": ["How does diet affect dental health?", "What foods are bad for teeth?", "What should I eat for healthy teeth?", "Tell me about the relationship between diet and oral health", "Help me with dietary advice for dental health"],
+        "responses": ["Diet plays a significant role in dental health. Limit sugary and acidic foods and drinks that can contribute to tooth decay and erosion. Instead, focus on a balanced diet rich in fruits, vegetables, lean proteins, and dairy products, which provide essential nutrients for strong teeth and gums."],
+        "context_set": ""
+      },
+      {
+        "tag": "smoking_and_oral_health",
+        "patterns": ["How does smoking affect oral health?", "What are the risks of smoking for teeth and gums?", "Can smoking cause dental problems?", "Tell me about the impact of smoking on oral hygiene", "Help me understand smoking-related dental issues"],
+        "responses": ["Smoking is harmful to oral health and can lead to numerous dental problems, including gum disease, tooth discoloration, bad breath, and increased risk of oral cancer. Quitting smoking is one of the best things you can do to improve your oral health and overall well-being."],
+        "context_set": ""
+      },
+      {
+        "tag": "gum_disease",
+        "patterns": ["What is gum disease?", "How do I prevent gum disease?", "What are the symptoms of gum disease?", "Tell me about periodontal health", "Help me with gum disease prevention"],
+        "responses": ["Gum disease, also known as periodontal disease, is an infection of the gums caused by bacteria in plaque. It can lead to gum inflammation, bleeding, receding gums, and tooth loss if left untreated. Prevent gum disease by practicing good oral hygiene, including brushing, flossing, and regular dental check-ups."],
+        "context_set": ""
+      },
+      {
+        "tag": "oral_cancer",
+        "patterns": ["What is oral cancer?", "What are the risk factors for oral cancer?", "What are the symptoms of oral cancer?", "How is oral cancer diagnosed and treated?", "Tell me about oral cancer prevention"],
+        "responses": ["Oral cancer is a type of cancer that affects the mouth, lips, tongue, throat, and salivary glands. Risk factors include tobacco use, excessive alcohol consumption, HPV infection, and sun exposure. Symptoms may include persistent mouth sores, lumps, or patches, difficulty chewing or swallowing, and changes in voice. Early detection and treatment are crucial for improving outcomes. Prevention measures include avoiding tobacco and alcohol, practicing good oral hygiene, and getting regular dental check-ups."],
+        "context_set": ""
+      },
+      {
+        "tag": "senior_dental_care",
+        "patterns": ["How does aging affect dental health?", "What dental issues are common in seniors?", "How can seniors maintain oral health?", "Tell me about dental care for seniors", "Help me with dental care as I age"],
+        "responses": ["Aging can bring changes to oral health, such as dry mouth, gum disease, tooth decay, and tooth loss. Seniors may also experience medical conditions or take medications that affect oral health. To maintain oral health as you age, brush and floss regularly, visit your dentist for check-ups, eat a balanced diet, and avoid tobacco and excessive alcohol consumption. Your dentist can provide personalized advice and treatment to address your specific needs."],
+        "context_set": ""
+      }
+    ]
+  }
+  
